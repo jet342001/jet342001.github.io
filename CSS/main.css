@@ -1,0 +1,35 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+  
+header, main, footer {
+    margin: 1rem auto; 
+    max-width: 800px;
+}
+
+header , footer {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    background: navy;
+    padding: 20px;
+}
+
+main hr {
+    height:4px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+
+
+ header img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+
