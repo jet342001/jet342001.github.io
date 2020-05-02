@@ -1,0 +1,6 @@
+@media only screen and (max-width: 70em){
+    .column {
+        padding: 0.05em;
+        width: 48%;
+      }
+}
