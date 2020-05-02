@@ -1,11 +1,11 @@
-h1{
-    color:brown;
+h1 {
+  color: brown;
 }
 
 header,
 footer {
   color: brown;
-  
+
   text-align: center;
   border-radius: 1.5rem;
   background: burlywood;
@@ -13,33 +13,33 @@ footer {
   align-self: center;
 }
 
-header,footer,main {
-    max-width: 50rem;
-    margin-left: 15%;
-    margin-right: 15%;;
-    align-self: center;
+header,
+footer,
+main {
+  max-width: 50rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-self: center;
 }
 
-a{
-    color: crimson;
+a {
+  color: crimson;
 }
-.column{
-    padding: .04em;
-    float: left;
-    width: 32%;
-    max-width: 100%;
-    color: brown;
+.column {
+  padding: 0.04em;
+  float: left;
+  width: 32%;
+  max-width: 100%;
+  color: brown;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
-
+  content: "";
+  display: table;
+  clear: both;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    
+  max-width: 100%;
+  height: auto;
 }
