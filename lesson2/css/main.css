@@ -2,7 +2,7 @@ h1 {
   color: brown;
 }
 
-header,
+header,.column,
 footer {
   color: brown;
   text-align: center;
@@ -25,20 +25,23 @@ a {
   color: crimson;
 }
 .column {
-  padding: 0.04em;
+  padding: 0.5em;
+  margin:.1em;
+  margin-top: .05;
   float: left;
-  width: 32%;
+  width: 31%;
   max-width: 100%;
   color: brown;
 }
 
 .row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  align-self: center;
 }
