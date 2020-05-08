@@ -1,0 +1,45 @@
+h1{
+  text-align: right;
+  font-family: 'Fjalla One', serif;
+}
+
+/*
+  I like bubbles
+*/
+
+header{
+  color: #000040;
+}
+nav, footer{
+  color: white;
+  background: #000040;
+  
+}
+
+nav ul{
+  display: flex;
+  
+  list-style: none;
+}
+
+nav ul li a{
+  text-align: center;
+  padding: .75 rem;
+  text-decoration none;
+
+}
+
+
+
+
+
+a{
+  color: aqua;
+}
+a:hover{
+  color: yellow;
+}
+
+header{
+  margin-top: 0;
+}

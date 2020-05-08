@@ -35,8 +35,7 @@ a {
 }
 
 .row:after {
-  content: "";
-  display: flex;
+  display: grid;
   clear: both;
 }
 
