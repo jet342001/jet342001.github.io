@@ -1,45 +1,42 @@
-h1{
-  text-align: right;
-  font-family: 'Fjalla One', serif;
+body {
+	font-size: 16px;
+	font-family: 'Fjalla One', sans-serif;
 }
 
-/*
-  I like bubbles
-*/
+h1 {
+  text-align: right;
+  font-family: 'Fjalla One', sans-serif;
+}
 
 header{
   color: #000040;
 }
-nav, footer{
+
+nav,
+footer {
   color: white;
   background: #000040;
-  
 }
 
-nav ul{
-  display: flex;
-  
-  list-style: none;
+nav ul {
+    display: grid;
+    list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
+  color: white;
   text-align: center;
-  padding: .75 rem;
-  text-decoration none;
-
+  padding: 0.75 rem;
+  text-decoration: none;
 }
 
-
-
-
-
-a{
+footer a {
   color: aqua;
 }
-a:hover{
+a:hover {
   color: yellow;
 }
 
-header{
+header {
   margin-top: 0;
 }
