@@ -40,14 +40,19 @@ nav div ul {
   width: 70rem;
   padding-left: 0;
   font-size: 1.5rem;
-  display: inline;
   list-style: none;
   margin: 0;
+  overflow: hidden;
 }
 
-nav ul li a {
+nav div ul li{
+  display: inline-block;
+}
+
+nav div ul li a {
   color: white;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
