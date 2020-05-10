@@ -1,25 +1,27 @@
 body {
-	font-size: 16px;
-	font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  font-family: "Fjalla One", sans-serif;
 }
 
 h1 {
   text-align: right;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
-h3{
-  font-family: 'Lucida Sans', sans-serif;
+h3 {
+  font-family: "Lucida Sans", sans-serif;
 }
 
-header{
+header {
   color: #000040;
 }
 
-nav div, main, header, footer div{
+nav div,
+main, header,
+footer div {
+  max-width: 70em;
   margin-left: 10%;
   margin-right: 10%;
-  max-width: 70rem;
 }
 
 nav,
@@ -32,19 +34,20 @@ main img {
   width: 25rem;
   height: auto;
   margin-bottom: 1.5rem;
-
 }
 
-nav ul {
-    font-size: 1.5rem;
-    display: flex;
-    list-style: none;
+nav div ul {
+  width: 70rem;
+  padding-left: 0;
+  font-size: 1.5rem;
+  display: inline;
+  list-style: none;
+  margin: 0;
 }
 
 nav ul li a {
   color: white;
   text-align: center;
-
   text-decoration: none;
 }
 
@@ -55,4 +58,3 @@ a:hover {
   color: #c0c000;
   text-decoration: yellow;
 }
-
