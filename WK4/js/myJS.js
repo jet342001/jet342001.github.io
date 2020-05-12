@@ -1,5 +1,10 @@
 let date = new Date();
+document.addEventListener('DOMContentLoaded', onDocumentLoad); 
 
+
+function onDocumentLoad(){
+    writedate();
+}
 function writedate() {
     // MM/DD/YYYY HH:MM:SS
     let hour = date.getHours();

@@ -1,7 +1,7 @@
 <!doctype HTML>
 <HTML lang="en">
 
-    <HEAD>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="descriptions" content="This is a design page for weather
@@ -11,24 +11,19 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/medium.css" rel="stylesheet">
-        <link href="css/small.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
         <link
             href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&family=Roboto&display=swap"
-            rel="stylesheet">"</HEAD>
-    <BODY>
-        <header>
-            <div>
-                <h1>GWWeather</h1>
-            </div>
+            rel="stylesheet">
+    </head>
+    <body>
+        <header class="flex row-reverse container">
+            <h1>GWWeather</h1>
         </header>
-        <nav>
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a> </li>
-                    <li><a href="customer.html">Customer</a> </li>
-                    <li><a href="typography.html">Typography</a> </li>
-                </ul>
-            </div>
+        <nav class="flex container">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="customer.html" class="nav-link">Customer</a>
+            <a href="typography.html" class="nav-link">Typography</a>
         </nav>
         <main>
             <ul>
@@ -36,6 +31,7 @@
                 <li>404000</li>
                 <li>C0C000</li>
             </ul>
+            <!-- background: url(https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_205x58_frontpage_2x.png); -->
         </main>
         <footer>
             <div>
@@ -44,8 +40,7 @@
                 | Last Update: <span id="lastUpdate"></span>
             </div>
         </footer>
-
         <Script src='js/myJS.js'> </Script>
-    </BODY>
+    </body>
 
 </HTML>
