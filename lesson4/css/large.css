@@ -1,11 +1,15 @@
-@media only screen and (min-width: 74rem){
+@media only screen and (min-width: 70rem){
     header{
         max-width: 90%;
         margin: 0;
+        margin-right: 0px;
     }
     header img{
         max-width: 60%;
-        margin-right: 30rem;
+        margin-right: 23rem;
+    }
+    header div{
+        margin-left: 20rems;
     }
 
     nav{
@@ -51,8 +55,17 @@
         display: inline-block 
     }
     
-    main{
+    main, footer{
         max-width: 200rem;
+        margin:60px
+    }
+
+    main{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    footer{
+        margin-top: 0px;
     }
    
     .article{
