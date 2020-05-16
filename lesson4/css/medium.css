@@ -36,7 +36,8 @@
 
     .navigation li {
         font-size: larger;
-        display: inline-block
+        display: inline-block;
+        margin: .1em;
     }
     .navigation a {
         padding: .5rem;
