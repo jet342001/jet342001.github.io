@@ -1,9 +1,63 @@
 @media only screen and (min-width: 74rem){
-
+   
+    header{
+        max-width: 200;
+        margin: 0;
+        display: flex;
+        align-items: stretch;
+    }
+    header img{
+        max-width: 70rem;
+    }
     nav{
         display: flex;
-        align-items: center;
-
+        flex-direction: row;
     }
-  
+
+    nav {
+        background-color: #c0c000;
+        color: #000040
+    }
+    .navigation {
+        margin-left: 5rem;
+        list-style: none;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display:none;
+    }
+
+    .navigation li {
+        display: inline-block
+    }
+    .navigation a {
+        padding: .5rem;
+        text-decoration: none;
+        color:#000040;
+    }
+    .navigation a:hover {
+        color: white;
+        background-color: #000040;
+    }
+    .responsive li {
+        display: inline-block
+    }
+    
+    main{
+        max-width: 200rem;
+    }
+   
+   
+   
+    .article{
+        display: flex;
+        flex-direction: row;
+    }
+    .article img{
+        padding-right:1rem;
+        max-width: 99rem;
+        max-height: 10rem;
+    }
+
+
 }
