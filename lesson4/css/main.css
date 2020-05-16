@@ -94,3 +94,10 @@ footer div{
 	background-color: #000040;
 
 }
+footer a{
+	color: aliceblue;
+}
+
+footer a:hover{
+	color: #C0C000;
+}
