@@ -32,7 +32,6 @@ nav {
 	text-decoration: none;
 	color:#000040;
 	font-weight: 900;
-
 }
 .navigation a:hover {
 	color: white;
@@ -64,7 +63,6 @@ main div{
 .summary{
 	background-image: url("https://www.prestonidaho.net/wp-content/uploads/2017/07/slider2-1.jpg");
 }
-
 
 .article{
 	display: flex;
