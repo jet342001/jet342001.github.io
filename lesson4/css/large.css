@@ -1,5 +1,4 @@
 @media only screen and (min-width: 74rem){
-   
     header{
         max-width: 200;
         margin: 0;
@@ -47,8 +46,6 @@
         max-width: 200rem;
     }
    
-   
-   
     .article{
         display: flex;
         flex-direction: row;
@@ -58,6 +55,4 @@
         max-width: 99rem;
         max-height: 10rem;
     }
-
-
 }

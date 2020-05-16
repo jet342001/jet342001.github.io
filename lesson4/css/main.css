@@ -9,6 +9,8 @@ header img{
 }
 
 nav {
+	margin: 0 auto;
+	max-width: 760px;
     background-color: #c0c000;
     color: #000040
 }
@@ -30,6 +32,7 @@ nav {
 	text-decoration: none;
 	color:#000040;
 	font-weight: 900;
+
 }
 .navigation a:hover {
 	color: white;
