@@ -31,7 +31,11 @@ nav {
 	text-align: left;
 	text-decoration: none;
 	color:#000040;
+<<<<<<< HEAD
 	font-weight: 900;
+=======
+	font-weight: 700;
+>>>>>>> refs/remotes/origin/master
 }
 .navigation a:hover {
 	color: white;
