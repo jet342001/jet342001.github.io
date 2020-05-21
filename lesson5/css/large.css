@@ -37,7 +37,6 @@
 
     .navigation li {
         font-size: larger;
-        display: inline-block;
         margin: 1.8em;
     }
     .navigation a {
@@ -51,10 +50,6 @@
         color: white;
         background-color: #000040;
         border: white;
-    }
-    .responsive li {
-        font-size: larger;
-        display: inline-block 
     }
     
     main, footer{
