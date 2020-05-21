@@ -21,44 +21,25 @@
     .multi-forcast{
         display: flex;
     }
-
-    nav {
-        background-color: #c0c000;
-        color: #000040
-    }
-    .navigation {
-        margin-left: 5rem;
-        list-style: none;
-        padding: 0;
-    }
     .navigation li:first-child {
         display:none;
     }
 
+    .navigation{
+        flex-direction: row;
+    }
+
     .navigation li {
+        flex: 1 1 auto;
+        display: block;
         font-size: larger;
-        display: inline-block;
         margin: .1em;
     }
-    .navigation a {
-        padding: .5rem;
-        text-decoration: none;
-        color:#000040;
-        border: black;
-        border-style: solid;
-    }
-    .navigation a:hover {
-        color: white;
-        background-color: #000040;
-        border: white;
-    }
     .responsive li {
-        font-size: larger;
-        display: inline-block 
+        font-size: larger; 
     }
     
     main, footer{
-        max-width: 200rem;
         margin:60px
     }
 
@@ -75,6 +56,7 @@
         flex-direction: row;
     }
     .article img{
+        float: right;
         padding-right:1rem;
         max-width: 99rem;
         max-height: 10rem;

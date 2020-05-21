@@ -13,48 +13,12 @@
         margin-left: 20rems;
     }
 
-    nav{
-        display: flex;
-        flex-direction: row;
-    }
-
     .multi-forcast{
         display: flex;
     }
 
-    nav {
-        background-color: #c0c000;
-        color: #000040
-    }
-    .navigation {
-        margin-left: 5rem;
-        list-style: none;
-        padding: 0;
-    }
-    .navigation li:first-child {
-        display:none;
-    }
-
     .navigation li {
-        font-size: larger;
         margin: 1.8em;
-    }
-    .navigation a {
-        padding: .5rem;
-        text-decoration: none;
-        color:#000040;
-        border: black;
-        border-style: solid;
-    }
-    .navigation a:hover {
-        color: white;
-        background-color: #000040;
-        border: white;
-    }
-    
-    main, footer{
-        max-width: 200rem;
-        margin:60px
     }
 
     main{

@@ -1,42 +1,51 @@
-body{
-	font-size: 16 px;
+body {
+	font-size: 16px;
 	font-family: "Fjalla One", sans-serif;
 }
+
 h1 {
-  color: #000040;
+	color: #000040;
 }
-header{
+
+header {
 	display: flex;
 	flex-direction: row;
 }
-header img{
-    margin: 1rem;
-    max-width: 60%;
-   max-height: 15rem;
+
+header img {
+	margin: 1rem;
+	max-width: 60%;
+	max-height: 15rem;
 }
 
 nav {
-    background-color: #c0c000;
-    color: #000040
+	background-color: #c0c000;
+	color: #000040
 }
+
 .navigation {
+	display: flex;
+	flex-direction: column;
 	list-style: none;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
-	display: flex;
-	justify-content: center;
+	display: block;
 	padding: 0.75rem;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
-	color:#000040;
+	color: #000040;
 }
+
 .navigation a:hover {
 	color: white;
 	background-color: #000040;
@@ -46,17 +55,13 @@ nav {
 	display: block;
 }
 
-.flex {
-  display: flex;
-  justify-content:  center;
-}
-
-main{
-	max-width: 760px;	
+main {
+	max-width: 760px;
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
-main div{
+
+main div {
 	min-height: 10rem;
 	margin-bottom: .2rem;
 	display: flex;
@@ -64,40 +69,46 @@ main div{
 	color: white;
 	padding: 2rem;
 }
-.summary{
+
+.summary {
 	background-image: url("https://www.prestonidaho.net/wp-content/uploads/2017/07/slider2-1.jpg");
 }
-.multi-forcast{
+
+.multi-forcast {
 	display: none;
 }
-.article{
+
+.article {
 	display: flex;
 	flex-direction: column-reverse;
 }
-.article img{
-	padding-right:1rem;
+
+.article img {
+	padding-right: 1rem;
 	max-width: 99rem;
 	max-height: 10rem;
 }
-.in_text{
+
+.in_text {
 	flex-direction: column;
 }
 
-.contact{
+.contact {
 	background: #c0c000;
 	color: black;
 	margin-bottom: 10px;
 }
 
-footer div{
+footer div {
 	color: white;
 	background-color: #000040;
 
 }
-footer a{
+
+footer a {
 	color: aliceblue;
 }
 
-footer a:hover{
+footer a:hover {
 	color: #C0C000;
 }
