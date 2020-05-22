@@ -29,11 +29,8 @@
         margin-top: 0px;
     }
    
-    .article{
-        display: flex;
-        flex-direction: row;
-    }
     .article img{
+        float: right;
         padding-right:1rem;
         max-width: 99rem;
         max-height: 10rem;

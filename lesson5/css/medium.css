@@ -18,6 +18,10 @@
         flex-direction: row;
     }
 
+    main{
+        align-items: center;
+    }
+
     .multi-forcast{
         display: flex;
     }
@@ -39,21 +43,11 @@
         font-size: larger; 
     }
     
-    main, footer{
-        margin:60px
-    }
-
-    main{
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
     footer{
         margin-top: 0px;
     }
-   
     .article{
-        display: flex;
-        flex-direction: row;
+        display: block;
     }
     .article img{
         float: right;
