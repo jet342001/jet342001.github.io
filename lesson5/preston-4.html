@@ -25,7 +25,7 @@
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="preston-4.html">Preston</a></li>
+                <li class="current_page"><a href="preston-4.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -35,10 +35,32 @@
         <main>
             <h1>Preston Idaho</h1>
             <div class="summary">
-                Weather Summary
+                <div class="summarybox">
+                    <ul class="summary_list">
+                        <li class="Summary_item">
+                            Preston Weather information
+                        </li>
+                        <li class="Summary_item">Currently: <span id="current"></span>
+                        </li>
+                        <li class="Summary_item">High: <span id="High"></span>
+                        </li>
+                        <li class="Summary_item">Wind Chill: <span id="chill"></span>
+                        </li>
+                        <li class="Summary_item">Humidity: <span id="High"></span>
+                        </li>
+                        <li class="Summary_item">Wind Speed: <span id="High"></span>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            
             <div class="multi-forcast">
                 5 Day Forcast
+                <div>Today <br>60</div>
+                <div>Friday<br>60</div>
+                <div>Saturday<br>60</div>
+                <div>Sunday<br>60</div>
+                <div>Monday<br>60</div>
             </div>
             <div class="article">
                 <img src="images/preston.jpg" alt="photo of preston">
@@ -70,7 +92,10 @@
                 </div>
             </div>
             <div class="contact">
-                Contact info:
+                <div id="map"></div>
+               
+                <div> Contact info:<br>Phone: (888) 888-8888<br> email: preston@noreply.com<br> 
+                    website: www.preston.com</be> </div>
             </div>
         </main>
         <footer>
@@ -81,6 +106,8 @@
             </div>
         </footer>
         <Script src='js/myJS.js'> </Script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
     </body>
 
 </HTML>

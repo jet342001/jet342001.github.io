@@ -1,38 +1,4 @@
 @media only screen and (min-width: 70rem){
-    header{
-        max-width: 90%;
-        margin: 0;
-        margin-right: 0px;
-    }
-    header img{
-        max-width: 60%;
-        height: 100px;
-        margin-right: 23rem;
-    }
-    header div{
-        margin-left: 20rems;
-    }
 
-    .multi-forcast{
-        display: flex;
-    }
 
-    .navigation li {
-        margin: 1.8em;
-    }
-
-    main{
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-    footer{
-        margin-top: 0px;
-    }
-   
-    .article img{
-        float: right;
-        padding-right:1rem;
-        max-width: 99rem;
-        max-height: 10rem;
-    }
 }

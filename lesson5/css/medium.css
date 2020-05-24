@@ -1,25 +1,31 @@
 @media only screen and (min-width: 40rem){
-    header{
+
+    header, main{
         max-width: 90%;
-        margin: 0;
-        margin-left: 10px;
+    }
+    header{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
     }
     header img{
         max-width: 60%;
         height: 100px;
-        margin-right: 5rem;
-    }
-    header div{
-        margin-left: 5rem;
     }
 
     nav{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        margin: auto;
     }
 
     main{
-        align-items: center;
+        margin: auto;
+    }
+    main div{
+        justify-content: center;
     }
 
     .multi-forcast{
@@ -30,6 +36,7 @@
     }
 
     .navigation{
+        max-width: 100%;
         flex-direction: row;
     }
 
@@ -37,15 +44,11 @@
         flex: 1 1 auto;
         display: block;
         font-size: larger;
-        margin: .1em;
     }
     .responsive li {
         font-size: larger; 
     }
     
-    footer{
-        margin-top: 0px;
-    }
     .article{
         display: block;
     }
@@ -54,5 +57,21 @@
         padding-right:1rem;
         max-width: 99rem;
         max-height: 10rem;
+    }
+
+    .contact div, #map{
+        max-width: 50%;
+        background: #C0C000;
+        color: black;
+    }
+    #map{
+        width: 5rem;
+        display: flex;
+    }
+
+    footer div{
+        text-align: center;
+        justify-content: center;
+        padding: .5rem;
     }
 }
