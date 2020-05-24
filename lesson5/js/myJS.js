@@ -1,13 +1,12 @@
-document.addEventListener('DOMContentLoaded', onDocumentLoad); 
-
+document.addEventListener('DOMContentLoaded',onDocumentLoad); 
 const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+const mainnav = document.querySelector('.navigation');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 function onDocumentLoad(){
     writedate();
-    initMap();
+    //initMap();
 }
 
 let date = new Date();
@@ -42,15 +41,16 @@ function writedate() {
     var myMon = month[m];
     var dayNum = date.getDate()
     var myYear = date.getFullYear();
+    var message = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
     //formate data then write.
     if(myDay == "Friday"){
-    document.getElementById("summary").innerHTML = "Saturday = Preston Pancakes in the 
-    Park!  9:00 a.m. Saturday at the city park pavilion.";   
+        document.getElementById("summary").innerHTML = message;   
     }
     var tday = myDay + ", "  + dayNum +" " + myMon + " " + myYear;
     document.getElementById("lastUpdate").innerHTML = tday;
 }
 
+/*
 function initMap() {
     //location preston
     var preston = 83263;
@@ -59,3 +59,4 @@ function initMap() {
     // The marker, positioned at Preston
     var marker = new google.maps.Marker({position: preston, map: map});
     }
+    */
