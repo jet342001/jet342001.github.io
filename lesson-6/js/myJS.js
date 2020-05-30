@@ -1,16 +1,21 @@
 document.addEventListener('DOMContentLoaded',onDocumentLoad); 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation');
+WebFont.load({google: {families: ["Roboto"]}});
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 function onDocumentLoad(){
+    //uses document load to pull up info. 
     writedate();
     //initMap();
 }
 
-let date = new Date();
+
+
 function writedate() {
+    //writes date in desired format
+    let date = new Date();
     // MM/DD/YYYY HH:MM:SS
     var n = date.getDay();
     //get day of weeek
