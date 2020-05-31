@@ -9,7 +9,6 @@ function onDocumentLoad(){
     //uses document load to pull up info. 
     writedate();
     windChill(60, 5);
-    //initMap();
 }
 
 function windChill(temp t, windSpeed s) {
@@ -17,7 +16,6 @@ function windChill(temp t, windSpeed s) {
     chill = 35.74  + 0.6215*t - 35.75*(Math.pow(s,.16)) + 0.4275 * t * Math.pow(s,.16);
     document.getElementById("Chill").innerHTML = chill;
 }
-
 
 function writedate() {
     //writes date in desired format
@@ -60,14 +58,3 @@ function writedate() {
     var tday = myDay + ", "  + dayNum +" " + myMon + " " + myYear;
     document.getElementById("lastUpdate").innerHTML = tday;
 }
-
-/*
-function initMap() {
-    //location preston
-    var preston = 83263;
-    // The map, centered at Preston
-    var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: preston});
-    // The marker, positioned at Preston
-    var marker = new google.maps.Marker({position: preston, map: map});
-    }
-    */
