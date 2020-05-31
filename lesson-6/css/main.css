@@ -1,13 +1,17 @@
+html{
+	background:	#101010;
+}
 body {
 	font-size: 16px;
 	font-family: "Fjalla One", sans-serif;
 }
 
 h1 {
-	color: #000040;
+	color: white;
 }
 
 header {
+	color: white;
 	display: flex;
 	flex-direction: row;
 }
