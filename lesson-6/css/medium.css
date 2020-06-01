@@ -48,6 +48,17 @@
     .responsive li {
         font-size: larger; 
     }
+
+    .summarybox{
+        border: 1px solid black;
+        padding: 10px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background-color:#000040;
+        color: white;
+        box-shadow: 0px 0px 20px#3663a5;
+    }
     
     .article{
         display: block;
@@ -58,19 +69,21 @@
         max-width: 99rem;
         max-height: 10rem;
     }
-
+    .contact{
+        justify-content: stretch;
+    }
     .contact div, #map{
+        display: flex;
         max-width: 50%;
         background: #C0C000;
         color: black;
     }
     #map{
-        max-width: 5rem;
-        display: flex;
+
     }
     #map img{
-        max-width: 24rem;
-        height: auto;
+        max-width: 30rem;
+        max-height: 25rem;
     }
 
     footer div{

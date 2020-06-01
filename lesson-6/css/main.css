@@ -74,8 +74,12 @@ main div {
 }
 
 .summary {
+	padding: 0;
 	position: relative;
-	background-image: url("https://www.prestonidaho.net/wp-content/uploads/2017/07/slider2-1.jpg");
+}
+.summary img {
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .summarybox{
@@ -123,6 +127,7 @@ main div {
 	background: #c0c000;
 	color: black;
 	margin-bottom: 10px;
+	justify-content: center;
 }
 
 #map{
@@ -132,7 +137,7 @@ main div {
 footer div {
 	color: white;
 	background-color: #000040;
-
+	align-items: center;
 }
 
 footer a {
