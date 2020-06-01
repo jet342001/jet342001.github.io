@@ -67,10 +67,13 @@ main {
 main div {
 	min-height: 10rem;
 	margin-bottom: .2rem;
-	display: flex;
 	background: #000040;
 	color: white;
-	padding: 2rem;
+	padding: 1rem;
+}
+
+.contact{
+	display: flex;
 }
 
 .summary {

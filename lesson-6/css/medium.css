@@ -30,6 +30,7 @@
 
     .multi-forcast{
         display: flex;
+        justify-content: space-evenly;
     }
     .navigation li:first-child {
         display:none;

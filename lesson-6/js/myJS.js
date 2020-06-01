@@ -14,8 +14,8 @@ function onDocumentLoad(){
 function windChill(t, s){
     let x = Math.pow(s,0.16);
     let wc = 35.74+0.6215*t-35.75*x+0.4275*t*x;
-    wc = wc.toFixed(2);
-    document.getElementById("Chill").innerHTML = wc;
+    wc = wc.toFixed(0);
+    document.getElementById("Chill").innerHTML = wc+ "" + "&#8457";
 }
 
 function writedate() {
