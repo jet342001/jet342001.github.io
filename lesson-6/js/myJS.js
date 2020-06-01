@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded',onDocumentLoad); 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation');
-WebFont.load({google: {families: ["Roboto"]}});
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
@@ -9,6 +8,7 @@ function onDocumentLoad(){
     //uses document load to pull up info. 
     writedate();
     windChill(60, 5);
+    WebFont.load({google: {families: ["Roboto"]}});
 }
 
 function windChill(t, s){
