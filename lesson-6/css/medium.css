@@ -65,8 +65,12 @@
         color: black;
     }
     #map{
-        width: 5rem;
+        max-width: 5rem;
         display: flex;
+    }
+    #map img{
+        max-width: 24rem;
+        height: auto;
     }
 
     footer div{
