@@ -22,11 +22,16 @@
     }
 
     main {
+        margin: 0 auto;
         margin-top: 20px;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
         color: white;
         height: 45rem;
+    }
+
+    main div:hover{
+        box-shadow: yellowgreen;
     }
 
     .navigation{
