@@ -1,0 +1,51 @@
+@media only screen and (min-width: 40rem){
+
+    header, main{
+        max-width: 90%;
+        justify-content: center;
+    }
+    header{
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header img{
+        max-width: 60%;
+        height: 100px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+    }
+
+    main {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        color: white;
+        height: 45rem;
+    }
+
+    .navigation{
+        max-width: 100%;
+        flex-direction: row;
+    }
+
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+        font-size: larger;
+    }
+    .responsive li {
+        font-size: larger; 
+    }
+
+    footer div{
+        text-align: center;
+        justify-content: center;
+        padding: .5rem;
+    }
+}
