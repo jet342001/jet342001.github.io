@@ -10,6 +10,11 @@ h1 {
 	color: white;
 }
 
+h3{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
 header {
 	color: white;
 	display: flex;
@@ -68,9 +73,6 @@ main{
 	justify-content: center;
 	color: white;
 }
-div{
-	display: grid;
-}
 
 div img{
 	max-width: 100%;
@@ -83,9 +85,9 @@ Footer
 */
 
 footer div {
+	display: flex;
 	color: white;
 	background-color: #000040;
-	align-items: center;
 }
 
 footer a {

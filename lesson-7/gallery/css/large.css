@@ -4,11 +4,8 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         color: white;
-        height: 45rem;
     }
-    div{  
-        display: grid;
-    }
+
     div img{
         max-width: 100%;
         max-height: 100%;
