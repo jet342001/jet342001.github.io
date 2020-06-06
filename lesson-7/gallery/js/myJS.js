@@ -45,9 +45,6 @@ function writedate() {
     var myYear = date.getFullYear();
     var message = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
     //formate data then write.
-    if(myDay == "Friday"){
-        document.getElementById("summary").innerHTML = message;   
-    }
     var tday = myDay + ", "  + dayNum +" " + myMon + " " + myYear;
     document.getElementById("lastUpdate").innerHTML = tday;
 }

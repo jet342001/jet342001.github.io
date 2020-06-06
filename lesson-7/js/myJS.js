@@ -55,6 +55,7 @@ function writedate() {
     //formate data then write.
     if(myDay == "Friday"){
         document.getElementById("summary").innerHTML = message;   
+        document.getElementById("summary").
     }
     var tday = myDay + ", "  + dayNum +" " + myMon + " " + myYear;
     document.getElementById("lastUpdate").innerHTML = tday;
