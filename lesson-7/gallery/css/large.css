@@ -6,6 +6,10 @@
         color: white;
     }
 
+    h3{
+        display: grid;
+    }
+
     div img{
         max-width: 100%;
         max-height: 80%;
