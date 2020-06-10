@@ -1,0 +1,12 @@
+h1, h2{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+main{
+    display: grid 300px;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+}
