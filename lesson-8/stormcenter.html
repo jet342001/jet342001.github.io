@@ -59,7 +59,7 @@
                 <label class="storm">Storm Date: <input type="date"
                         name="stormdate"></label>
                 <label class="storm">Storm Type: <input list="stormType"
-                        type="list" name="stormType"></label>
+                        type="list" name="stormT"></label>
                 <datalist id="stormType">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -68,10 +68,7 @@
                     <option value="Tornado">
                 </datalist>
                 <label class="storm" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="severity"
-                        value="5" min="1" max="10"
-                        step="1"
-                        list="tickmarks">
+                    <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks">
                 </label>
                 <label class="storm">Storm Region:
                     <select name="region">
@@ -99,8 +96,7 @@
                 <label class="rad">Comments:</label>
                 <textarea name="rad comment" id="comments"></textarea>
             </fieldset>
-
-                <input class="submitForm" type="submit" value='Click to Update Storm'">
+            <input class="submitForm" type="submit" value="Submit">
             </form>
         </main>
         <footer>
@@ -112,6 +108,5 @@
             </div>
         </footer>
         <Script src='stormcenter/js/myJS.js'> </Script>
-        </script>
     </body>
 </HTML>
