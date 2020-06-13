@@ -97,6 +97,12 @@ div img{
 	min-height: 30rem;
 }
 
+.submitForm{
+	margin-top: 20px;
+	background: #C0C000;
+	color: black;
+	font-size: 2rem;
+}
 
 /*
 Footer
