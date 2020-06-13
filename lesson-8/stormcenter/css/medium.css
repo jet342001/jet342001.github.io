@@ -19,10 +19,30 @@
         flex-direction: row;
         justify-content: center;
     }
+    
+    main{
+        max-width: 90%;
+        margin: 0 auto;
+    }
 
     form fieldset {
-        display: flex;
-        flex-direction: column;
+            margin-top: 20px;
+    }
+
+    .contact, .storm{
+        margin: 2rem;
+        grid-template-columns: 1fr 3fr;
+        min-height: 2rem;
+    }
+    
+    .comment{
+        min-height: 16rem;
+        min-width: 80%;
+    }
+    .rad{
+        display: inline;
+        padding: .2rem;
+        min-height: 2rem;
     }
 
     h2{

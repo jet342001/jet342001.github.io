@@ -2,4 +2,15 @@
 
 
 
+    .contact, .storm{
+        grid-template-columns: 1fr 8fr;
+        min-height: 2rem;
+    }
+    .rad{
+        padding: 25px;
+    }
+
+
+
+
 }

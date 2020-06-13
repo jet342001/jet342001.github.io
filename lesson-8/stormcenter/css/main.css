@@ -72,11 +72,30 @@ main{
 	color: white;
 }
 
+form{
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+}
+
+.contact, .storm{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.rad {
+	display: grid;
+	grid-template-columns: 1fr;
+}
 
 div img{
 	max-width: 100%;
 }
-
+.thanks{
+	display: grid;
+	max-width: 80%;
+	margin: 0 auto;
+	min-height: 30rem;
+}
 
 
 /*

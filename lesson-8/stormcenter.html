@@ -34,92 +34,84 @@
                 <li><a href="gallery/gallery.html">Gallery</a></li>
             </ul>
         </nav>
-        <main>
-            <h2>Storm Center</h2>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label class="top">Full Name*: <input type="text"
-                            name="name"
-                            title="Only Letters, 6 or more characters"
-                            pattern="[A-Za-z\s]{5,}" required></label>
-                    <label class="top">Phone*: <input type="tel" name="phone"
-                            title="Only numbers and 10 digits or greater"
-                            pattern="[0-9]{10,}" placeholder="1235551231"
-                            required></label>
-                    <label class="top">Zipcode: <input type="number"
-                            name="ship-zip"
-                            required></label>
-                    <label class="top">Email: <input type="email" name="email"
-                            placeholder="someone@gmail.com"></label>
-                </fieldset>
+    <main>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+            <fieldset class="newField">
+                <legend>Contact Information</legend>
+                <label class="contact">Full Name*: <input type="text"
+                        name="name"
+                        title="Only Letters, 6 or more characters"
+                        pattern="[A-Za-z\s]{5,}" required></label>
+                <label class="contact">Phone*: <input type="tel" name="phone"
+                        title="Only numbers and 10 digits or greater"
+                        pattern="[0-9]{10,}" placeholder="1235551231"
+                        required></label>
+                <label class="contact">Zipcode: <input type="number"
+                        name="ship-zip"
+                        required></label>
+                <label class="contact">Email: <input type="email" name="email"
+                        placeholder="name@domain.com"></label>
+            </fieldset>
 
-                <fieldset>
-                    <legend>Storm Information</legend>
-                    <label class="storm">Storm Date: <input type="date"
-                            name="date"></label>
-                    <label class="storm">Storm Type: <input list="stormType"
-                            type="list" name="stormType"></label>
-                    <datalist id="stormType">
-                        <option value="Flash Flood">
-                            <option value="Hail">
-                                <option value="Hurricane">
-                                    <option value="Thunderstorm">
-                                        <option value="Tornado">
-                                        </datalist>
-                                        <label class="storm" for="rating">Storm
-                                            Severity: &nbsp;&nbsp;&nbsp;
-                                            <input type="range" id="rating"
-                                                value="5" min="1" max="10"
-                                                step="1"
-                                                list="tickmarks"
-                                                oninput="adjustRating(this.value)"
-                                                onchange="adjustRating(this.value)">
-                                            <span id="ratingvalue">5</span>
-                                        </label>
-                                        <label class="storm">Storm Region:
-                                            <select name="region">
-                                                <option value="" selected
-                                                    disabled>Select
-                                                    Region...</option>
-                                                <option value="preston">Preston</option>
-                                                <option value="soda springs">Soda
-                                                    Springs</option>
-                                                <option value="fish haven">Fish
-                                                    Haven</option>
-                                            </select>
-                                        </label>
-                                    </fieldset>
-
-                                    <fieldset>
-                                        <legend>Additional Info</legend>
-                                        <div>In-danger level:</div>
-                                        <label class="radio"><input type="radio"
-                                                name="level" value="yes"><span
-                                                class="options">Yes</span></label>
-                                        <label class="radio"><input type="radio"
-                                                name="level" value="maybe"><span
-                                                class="options">Maybe</span></label>
-                                        <label class="radio"><input type="radio"
-                                                name="level" value="no"><span
-                                                class="options">No</span></label>
-                                        <label class="top">Comments:</label>
-                                        <textarea name="comments" id="comments"></textarea>
-                                    </fieldset>
-                                    <input type="submit" value='Update Storm'
-                                        class="submitBtn">
-                                </form>
-                            </main>
-                            <footer>
-                                <div>
-                                    &copy; 2020 | GWWeather Group| Utah | <a
-                                        href="https://www.byui.edu/online">BYUI
-                                        Online Learning </a>
-                                    | Todays Date: <span id="lastUpdate"></span>
-                                </div>
-                            </footer>
-                            <Script src='js/myJS.js'> </Script>
-                        </script>
-                    </body>
-
-                </HTML>
+            <fieldset class="newField">
+                <legend>Storm Information</legend>
+                <label class="storm">Storm Date: <input type="date"
+                        name="date"></label>
+                <label class="storm">Storm Type: <input list="stormType"
+                        type="list" name="stormType"></label>
+                <datalist id="stormType">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+                <label class="storm" for="severity">Storm Severity: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="severity"
+                        value="5" min="1" max="10"
+                        step="1"
+                        list="tickmarks">
+                </label>
+                <label class="storm">Storm Region:
+                    <select name="region">
+                        <option value="" selected
+                            disabled>Select
+                            Region...</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda springs">Soda
+                            Springs</option>
+                        <option value="fish haven">Fish
+                            Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset class="info">
+                <legend>Additional Info</legend>
+                <div class="rad">I feel im in danger?:</div>
+                <label class="rad test"><input type="radio"
+                        name="level" value="yes">Yes</label>
+                <label class="rad"><input type="radio"
+                        name="rad" value="maybe">Maybe</label>
+                <label class="rad"><input type="radio"
+                        name="level" value="no">No</label>
+                <br>
+                <label class="rad">Comments:</label>
+                <textarea name="rad comment" id="comments"></textarea>
+            </fieldset>
+            <input type="submit" value='Update Storm'
+                class="submitBtn">
+            </form>
+        </main>
+        <footer>
+            <div>
+                &copy; 2020 | GWWeather Group| Utah | <a
+                    href="https://www.byui.edu/online">BYUI
+                    Online Learning </a>
+                | Todays Date: <span id="lastUpdate"></span>
+            </div>
+        </footer>
+        <Script src='stormcenter/js/myJS.js'> </Script>
+        </script>
+    </body>
+</HTML>

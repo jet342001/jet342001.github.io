@@ -18,7 +18,8 @@ function windChill(t, s){
     document.getElementById("Chill").innerHTML = wc+ "" + "&#8457";
 }
 
-function writedate() {
+function writedate() 
+{
     //writes date in desired format
     let date = new Date();
     // MM/DD/YYYY HH:MM:SS
@@ -53,7 +54,8 @@ function writedate() {
     var myYear = date.getFullYear();
     var message = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
     //formate data then write.
-    if(myDay == "Friday"){
+    if(myDay == "Friday")
+    {
         document.getElementById("summary").innerHTML = message;   
         document.getElementById("summary").
     }
