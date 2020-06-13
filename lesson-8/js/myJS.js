@@ -52,7 +52,7 @@ function writedate()
     var myMon = month[m];
     var dayNum = date.getDate()
     var myYear = date.getFullYear();
-    var message = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
+    var message = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
     //formate data then write.
     if(myDay == "Friday")
     {
