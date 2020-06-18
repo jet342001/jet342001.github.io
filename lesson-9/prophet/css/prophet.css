@@ -1,0 +1,42 @@
+main{
+    
+}
+.cards{
+    max-width: 95%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    background:goldenrod;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+h2, h4{
+    margin: 0;
+}
+h4{
+    font-weight: normal;
+}
+image{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 800px){
+.cards{
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+@media only screen and (min-width: 70rem){
+
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+}
