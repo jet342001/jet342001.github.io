@@ -1,0 +1,119 @@
+<!doctype HTML>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="This is a design page for weathersite">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>Preston Home page</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/GW.png" alt="company logo">
+        <div class="in_text">
+            <h1>GW Weather</h1>
+            <h3>Get world Weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li class="current_page"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="summary" id=summary>
+            <picture>
+                <source srcset='images/Preston_large.jpg' media='(min-width: 500px) and (max-width: 799px)'>
+                <source srcset='images/preston_med.jpg' media='(min-width: 799px)'>
+                <img src='images/preston_small.jpg' alt='preston photo'>
+            </picture>
+            <div class="summarybox">
+                <ul class="summary_list">
+                    <li class="Summary_item">
+                        Preston Weather information
+                    </li>
+                    <li class="Summary_item">Currently: <span id="current">hot</span>
+                    </li>
+                    <li class="Summary_item">High: <span id="High">80</span>
+                    </li>
+                    <li class="Summary_item">Wind Chill: <span id="Chill"></span>
+                    </li>
+                    <li class="Summary_item">Humidity: <span id="Hum"></span>
+                    </li>
+                    <li class="Summary_item">Wind Speed: <span id="Speed"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="multi-forcast">
+            5 Day Forcast
+            <div>Today <br>60</div>
+            <div>Friday<br>60</div>
+            <div>Saturday<br>60</div>
+            <div>Sunday<br>60</div>
+            <div>Monday<br>60</div>
+        </div>
+        <div class="article">
+            <img src="images/preston.jpg" alt="photo of preston">
+            <div class="in_text">
+                <h2>Stuff about Preston Idaho</h2>Lots of
+                stuf about preston Lots of stuf about preston Lots of stuf
+                about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+                Lots of stuf about preston Lots of stuf about preston Lots
+                of stuf about preston Lots of stuf about preston
+            </div>
+        </div>
+        <div class="contact">
+            <div id="map"><a
+                    href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0981763,-111.8924746,13.09z/data=!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"><img
+                        src="images/mapPreston.png" alt="preston map"></a></div>
+
+            <div> Contact info:<br>Phone: (888) 888-8888<br> email: preston@noreply.com<br>
+                website: www.preston.com</div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy; 2020 | GWWeather Group| Utah | <a href="https://www.byui.edu/online">BYUI Online Learning </a>
+            | Todays Date: <span id="lastUpdate"></span>
+        </div>
+    </footer>
+    <Script src='js/myJS.js'> </Script>
+</body>
+
+</HTML>

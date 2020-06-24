@@ -1,0 +1,109 @@
+@media only screen and (min-width: 40rem){
+
+    header, main{
+        max-width: 90%;
+    }
+    header{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    header img{
+        max-width: 60%;
+        height: 100px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main{
+        margin: 0 auto;
+    }
+
+    section{
+        min-height: 80%;
+    }
+
+    .cities{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .cities section{
+        display: flex;
+        flex-direction: column;
+    }
+    .cities img{
+        max-width: 100%;
+    }
+    
+    .multi-forcast{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navigation li:first-child {
+        display:none;
+    }
+
+    .navigation{
+        min-width: 100%;
+        flex-direction: row;
+    }
+
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+        font-size: larger;
+    }
+    .responsive li {
+        font-size: larger; 
+    }
+
+    .summarybox{
+        border: 1px solid black;
+        padding: 10px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        background-color:#000040;
+        color: white;
+        box-shadow: 0px 0px 20px#3663a5;
+    }
+    
+    .article{
+        display: block;
+    }
+    .article img{
+        float: right;
+        padding-right:1rem;
+        max-width: 99rem;
+        max-height: 10rem;
+    }
+    .contact{
+        justify-content: stretch;
+    }
+    .contact div, #map{
+        display: flex;
+        max-width: 50%;
+        background: #C0C000;
+        color: black;
+    }
+
+    #map img{
+        max-width: 30rem;
+        max-height: 25rem;
+    }
+
+    footer div{
+        text-align: center;
+        justify-content: center;
+        padding: .5rem;
+    }
+}
