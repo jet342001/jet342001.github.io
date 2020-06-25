@@ -22,7 +22,7 @@ function updateForecast() {
             //document.getElementById('').textContent = Math.round(forecast.list[36].main.temp_min);
             
             for (var c = 0; c < 5; c++){
-                i = weekcon[c];
+                var i = weekcon[c];
                 console.log(i);
                 if(i > 200 && i < 300 ){
                     weekcon[c] = "images/weathericons/ThunderStorm.png";
