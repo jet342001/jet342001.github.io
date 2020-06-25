@@ -9,6 +9,14 @@ body {
 h1 {
 	color: white;
 }
+h2{
+	margin: 0;
+	
+}
+h5{
+	margin: 0;
+	margin-bottom: 10px;
+}
 
 header {
 	color: white;
