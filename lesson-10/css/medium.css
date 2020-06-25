@@ -26,10 +26,17 @@
     main div{
         justify-content: center;
     }
-
     .multi-forcast{
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .multiDisplay{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .multiDisplay img{
+        max-width: 80%;
     }
     .navigation li:first-child {
         display:none;

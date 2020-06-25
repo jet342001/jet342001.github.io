@@ -8,7 +8,7 @@ document.getElementById('current').textContent = Math.round(preston.main.temp);
 document.getElementById('high').textContent = Math.round(preston.main.temp_max);
 document.getElementById('hum').textContent = preston.main.humidity;
 document.getElementById('speed').textContent = Math.round(preston.wind.speed) + "MPH";
-//document.getElementById('conditions').textContent = preston.weather[0].main;
-//document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
+document.getElementById('condition').textContent = preston.weather[0].main;
+document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
 
 });
