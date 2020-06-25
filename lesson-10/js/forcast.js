@@ -8,7 +8,6 @@ function updateForecast() {
         .then((response) => response.json())
         .then((forecast) => {
             console.log(forecast);
-
             document.getElementById('day1').textContent = Math.round(forecast.list[0].main.temp_max);
             document.getElementById('day2').textContent = Math.round(forecast.list[14].main.temp_max);
             document.getElementById('day3').textContent = Math.round(forecast.list[22].main.temp_max);
@@ -21,6 +20,7 @@ function updateForecast() {
             weekcon[4] = parseInt(forecast.list[32].weather[0].id);
             //document.getElementById('').textContent = Math.round(forecast.list[36].main.temp_min);
             
+            //Handles the images loading for weather icons. 
             for (var c = 0; c < 5; c++){
                 var i = weekcon[c];
                 console.log(i);
@@ -41,7 +41,7 @@ function updateForecast() {
                 }
             }
             console.log(weekcon);
-        
+            //setting the image icons
             document.getElementById('wIcon1').setAttribute('src', weekcon[0]);
             document.getElementById('wIcon2').setAttribute('src', weekcon[1]);
             document.getElementById('wIcon3').setAttribute('src', weekcon[2]);
@@ -78,6 +78,7 @@ function updateForecast() {
     document.getElementById('d3').textContent = day[1];
     document.getElementById('d4').textContent = day[2];
     document.getElementById('d5').textContent = day[3];
+    
     //Checks for update every 15 minutes
 
     setTimeout(updateForecast, 900000);
