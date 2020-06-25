@@ -1,5 +1,5 @@
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Preston,us&units=imperial&APPID=6c8279d80c5abede95f577b29a3bdcb0'; 
-fetch(apiURL)
+const furl = 'https://api.openweathermap.org/data/2.5/weather?q=Preston,us&units=imperial&APPID=6c8279d80c5abede95f577b29a3bdcb0'; 
+fetch(furl)
 .then((response) => response.json())
 .then((forecast) => {
   console.log(forecast);
@@ -12,4 +12,4 @@ document.getElementById('day5').textContent = Math.round(forecast.list[32].main.
 
 //document.getElementById('').textContent = Math.round(forecast.list[36].main.temp_min);
 
-}
+})
