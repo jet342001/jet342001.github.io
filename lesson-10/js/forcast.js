@@ -20,6 +20,33 @@ function updateForecast() {
             weekcon[3] = forecast.list[30].weather[0].id;
             weekcon[4] = parseInt(forecast.list[32].weather[0].id);
             //document.getElementById('').textContent = Math.round(forecast.list[36].main.temp_min);
+            
+            for (var c = 0; c < 5; c++){
+                i = weekcon[c];
+                console.log(i);
+                if(i > 200 && i < 300 ){
+                    weekcon[c] = "images/weathericons/ThunderStorm.png";
+                }
+                else if(i > 300 && i < 600){
+                    weekcon[c] = "images/weathericons/Raining.png";
+                }
+                else if(i > 600 && i < 700 ){
+                    weekcon[c] = "images/weathericons/Snowing.png";
+                }
+                else if(i >700 && i < 801){
+                    weekcon[c] = "images/weathericons/Clear.png";
+                }
+                else{
+                    weekcon[c] = "images/weathericons/Cloudy.png";
+                }
+            }
+            console.log(weekcon);
+        
+            document.getElementById('wIcon1').setAttribute('src', weekcon[0]);
+            document.getElementById('wIcon2').setAttribute('src', weekcon[1]);
+            document.getElementById('wIcon3').setAttribute('src', weekcon[2]);
+            document.getElementById('wIcon4').setAttribute('src', weekcon[3]);
+            document.getElementById('wIcon5').setAttribute('src', weekcon[4]);
         })
 
     console.log(weekcon);
@@ -52,33 +79,6 @@ function updateForecast() {
     document.getElementById('d4').textContent = day[2];
     document.getElementById('d5').textContent = day[3];
     //Checks for update every 15 minutes
-
-    for (var c = 0; c < 5; c++){
-        i = weekcon[c];
-        console.log(i);
-        if(i > 200 && i < 300 ){
-            weekcon[c] = "images/weathericons/ThunderStorm.png";
-        }
-        else if(i > 300 && i < 600){
-            weekcon[c] = "images/weathericons/Raining.png";
-        }
-        else if(i > 600 && i < 700 ){
-            weekcon[c] = "images/weathericons/Snowing.png";
-        }
-        else if(i >700 && i < 801){
-            weekcon[c] = "images/weathericons/Clear.png";
-        }
-        else{
-            weekcon[c] = "images/weathericons/Cloudy.png";
-        }
-    }
-    console.log(weekcon);
-
-    document.getElementById('wIcon1').setAttribute('src', weekcon[0]);
-    document.getElementById('wIcon2').setAttribute('src', weekcon[1]);
-    document.getElementById('wIcon3').setAttribute('src', weekcon[2]);
-    document.getElementById('wIcon4').setAttribute('src', weekcon[3]);
-    document.getElementById('wIcon5').setAttribute('src', weekcon[4]);
 
     setTimeout(updateForecast, 900000);
 }
