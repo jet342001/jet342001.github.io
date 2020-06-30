@@ -41,7 +41,7 @@ function updateForecast() {
                 }
             }
             console.log(weekcon);
-            //setting the image icons
+    
             document.getElementById('wIcon1').setAttribute('src', weekcon[0]);
             document.getElementById('wIcon2').setAttribute('src', weekcon[1]);
             document.getElementById('wIcon3').setAttribute('src', weekcon[2]);

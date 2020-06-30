@@ -1,0 +1,111 @@
+html{
+	background:	#101010;
+}
+body {
+	font-size: 16px;
+	font-family: "Fjalla One", sans-serif;
+}
+
+h1 {
+	color: white;
+}
+
+header {
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+header img {
+	margin: 1rem;
+	max-width: 60%;
+	max-height: 15rem;
+}
+
+nav {
+	background-color: #c0c000;
+	color: #000040
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #000040;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #000040;
+}
+
+h2,h5{
+	margin: 0;
+}
+h5{
+	font-style: italic;
+	margin-bottom: 5px;
+}
+.responsive li {
+	display: block;
+}
+.cities{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 10px;
+	grid-column-gap: 30px;
+}
+
+.cities section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #c0c000;
+	text-align: center;
+}
+
+
+.cities img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section:nth-of-type(2) img{
+	grid-column:1;
+	grid-row: 1;
+}
+h4{
+	margin: 0 0 3px 0;
+}
+footer div {
+	color: white;
+	background-color: #000040;
+	align-items: center;
+}
+
+footer a {
+	color: aliceblue;
+}
+
+footer a:hover {
+	color: #C0C000;
+}
+
+.current_page{
+	text-decoration: #000040 underline;
+}

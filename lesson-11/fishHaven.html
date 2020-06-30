@@ -1,0 +1,106 @@
+<!doctype HTML>
+<HTML lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="This is a design page for weathersite">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <title>Fish Haven Home page</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/GW.png" alt="company logo">
+        <div class="in_text">
+            <h1>GW Weather</h1>
+            <h3>Get world Weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSpring.html">Soda Springs</a></li>
+            <li class="current_page"><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Fish Haven Idaho</h1>
+        <div class="summary" id=summary>
+            <picture>
+                <source srcset='images/Preston_large.jpg' media='(min-width: 500px) and (max-width: 799px)'>
+                <source srcset='images/preston_med.jpg' media='(min-width: 799px)'>
+                <img src='images/preston_small.jpg' alt='preston photo'>
+            </picture>
+            <div class="summarybox">
+                <ul class="summary_list">
+                    <li class="Summary_item">Fish Haven Weather information</li>
+                    <li class="Summary_item">Currently: <span id="current">hot</span>&#8457;</li>
+                    <li class="Summary_item">High: <span id="high">80</span>&#8457;</li>
+                    <li class="Summary_item">Wind Chill: <span id="Chill"></span></li>
+                    <li class="Summary_item">Humidity: <span id="hum"></span>%</li>
+                    <li class="Summary_item">Wind Speed: <span id="speed"></span></li>
+                    <li class="Summary_item">Condition: <span id="condition"></span></li>
+                    <li class="Summary_item">Feels like: <span id="feelsLike"></span>&#8457;</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="multi-forcast">
+            <h2>5 Day Forcast</h2>
+            <div class="multiDisplay">
+            <div><span id="d1">Today</span><br><span id="day1"></span>&#8457;
+                <br><img id="wIcon1" src="#" alt="weather icon"> </div>
+            <div><span id="d2"></span><br><span id="day2"></span>&#8457;
+                <br><img id="wIcon2" src="#" alt="weather icon"></div>
+            <div><span id="d3"></span><br><span id="day3"></span>&#8457;
+                <br><img id="wIcon3" src="#" alt="weather icon"></div>
+            <div><span id="d4"></span><br><span id="day4"></span>&#8457;
+                <br><img id="wIcon4" src="#" alt="weather icon"></div>
+            <div><span id="d5"></span><br><span id="day5"></span>&#8457;
+                <br><img id="wIcon5" src="#" alt="weather icon"></div>
+            </div>
+        </div>
+        <div class="article">
+            <img src="images/preston.jpg" alt="photo of preston">
+            <div class="in_text">
+                <h2>Jail cell takes flight</h2>
+                <h5>By NECIA P. SEAMONS Citizen editor</h5>
+                In the process of re-roofing the Franklin County Court House, 
+                an outdoor jail cell was removed from the building’s roof last week. 
+                The new roof for the building is expected to cost $26,000, said county 
+                inspector Randy Henrie. The late Gary McKenzie spearheaded the cell’s 
+                construction about 30 years ago when he was the jailer, said former county 
+                sheriff, Don Beckstead. Its purpose was to allow inmates an opportunity 
+                to be outside in good weather. The metal structure was taken to Idaho Salvage.
+            </div>
+        </div>
+        <div class="contact">
+            <div id="map"><a
+                    href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0981763,-111.8924746,13.09z/data=!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173"><img
+                        src="images/mapPreston.png" alt="preston map"></a></div>
+            <div> Contact info:<br>Phone: (888) 888-8888<br> email: preston@noreply.com<br>
+                website: www.preston.com</div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            &copy; 2020 | GWWeather Group| Utah | <a href="https://www.byui.edu/online">BYUI Online Learning </a>
+            | Todays Date: <span id="lastUpdate"></span>
+        </div>
+    </footer>
+    <script src='js/myJS.js'> </script>
+    <script src='js/temp.js'></script>
+    <script src='js/forcast.js'></script>
+</body>
+
+</HTML>
