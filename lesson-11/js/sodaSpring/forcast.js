@@ -2,7 +2,7 @@ updateForecast();
 
 
 function updateForecast() {
-    const fUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=95728,us&units=imperial&APPID=6c8279d80c5abede95f577b29a3bdcb0';
+    const fUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=83276,us&units=imperial&APPID=6c8279d80c5abede95f577b29a3bdcb0';
     var weekcon = new Array(5);
     fetch(fUrl)
         .then((response) => response.json())
