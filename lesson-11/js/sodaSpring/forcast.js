@@ -8,6 +8,13 @@ function updateForecast() {
         .then((response) => response.json())
         .then((forecast) => {
             console.log(forecast);
+            var hour = new Array(5);
+            for(var i in forecast){
+                count = 0;
+                if(i. == "18:00"
+                    hour[count] = i;
+                }
+            }
             document.getElementById('day1').textContent = Math.round(forecast.list[0].main.temp_max);
             document.getElementById('day2').textContent = Math.round(forecast.list[14].main.temp_max);
             document.getElementById('day3').textContent = Math.round(forecast.list[22].main.temp_max);
