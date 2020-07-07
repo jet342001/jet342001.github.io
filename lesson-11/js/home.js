@@ -60,9 +60,6 @@ hambutton.addEventListener('click', () => {
   mainnav.classList.toggle('responsive')
 }, false);
 
-
-
-
 function onDocumentLoad() {
   //uses document load to pull up info. 
   writedate();
