@@ -1,71 +1,89 @@
 <!doctype HTML>
 <HTML lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descriptions" content="Scoots home page, scoots n toots for your island tours">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="homecss/normalize.css">
-    <link href="homecss/main.css" rel="stylesheet">
-    <link href="homecss/medium.css" rel="stylesheet">
-    <link href="homecss/large.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <title>Scoots international Home page</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descriptions" content="Scoots home page, scoots n toots for
+            your island tours">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="homecss/normalize.css">
+        <link href="homecss/main.css" rel="stylesheet">
+        <link href="homecss/medium.css" rel="stylesheet">
+        <link href="homecss/large.css" rel="stylesheet">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <title>Scoots international Home page</title>
+    </head>
 
-<body>
-    <header>
-
-    </header>
-    <nav>
-        
-        <div class="companyInfo">
-            <img src="images/Scoots.png" alt="company logo">
-            <h1>Scoots scooters</h1>
-            <h3>Fast friendly scoots 'n toots</h3>
-        </div>
-        <ul class="navigation">
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li class="current_page"><a href="home.html">Home</a></li>
-            <li><a href="rentals.html">Rentals</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="tours.html">Tours</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
+    <body>
+        <header>
+            <div class="companyInfo">
+                <img src="images/Scoots.png" alt="company logo">
+                <h1>Scoots scooters</h1>
+                <h3>Fast friendly scoots 'n toots</h3>
+            </div>
+        </header>
+        <nav>
+            <div class ="menu">
+                <a class="fa fa-bars menu fa-2x" id="menu-toggle"></a>
+                <div id="side-menu" class="menu-container">
+                    <a class="fa fa-close" id="menu-close"></a>
+                    <ul class="menu-items">
+                        <!-- <li><a class="ham" href="#">&#9776; Menu</a></li> -->
+                        <li class="menu-item">
+                            <a class="scrollable-link" href="home.html">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="scrollable-link" href="rentals.html">Rentals</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="scrollable-link" href="reservations.html">Reservations</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="scrollable-link" href="tours.html">Tours</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="scrollable-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
 
             <picture>
-                <source srcset='images/Preston_large.jpg' media='(min-width: 500px) and (max-width: 799px)'>
-                <source srcset='images/preston_med.jpg' media='(min-width: 799px)'>
-                <img src='images/preston_small.jpg' alt='preston photo'>
+                <source srcset='' media='(min-width:
+                    500px) and (max-width: 799px)'>
+                <source srcset='' media='(min-width:
+                    799px)'>
+                <img src='' alt='Picture of scooters'>
             </picture>
 
-        <div class="multi-forcast">
-            <h2>5 Day Forcast</h2>
-            <div class="multiDisplay">
-            <div><span id="d1">Today</span><br><span id="day1"></span>&#8457;
-                <br><img id="wIcon1" src="#" alt="weather icon"> </div>
-            <div><span id="d2"></span><br><span id="day2"></span>&#8457;
-                <br><img id="wIcon2" src="#" alt="weather icon"></div>
-            <div><span id="d3"></span><br><span id="day3"></span>&#8457;
-                <br><img id="wIcon3" src="#" alt="weather icon"></div>
-            <div><span id="d4"></span><br><span id="day4"></span>&#8457;
-                <br><img id="wIcon4" src="#" alt="weather icon"></div>
-            <div><span id="d5"></span><br><span id="day5"></span>&#8457;
-                <br><img id="wIcon5" src="#" alt="weather icon"></div>
+            <div class="multi-forcast">
+                <h2>5 Day Forcast</h2>
+                <div class="multiDisplay">
+                    <div><span id="d1">Today</span><br><span id="day1"></span>&#8457;
+                        <br><img id="wIcon1" src="#" alt="weather icon"> </div>
+                    <div><span id="d2"></span><br><span id="day2"></span>&#8457;
+                        <br><img id="wIcon2" src="#" alt="weather icon"></div>
+                    <div><span id="d3"></span><br><span id="day3"></span>&#8457;
+                        <br><img id="wIcon3" src="#" alt="weather icon"></div>
+                    <div><span id="d4"></span><br><span id="day4"></span>&#8457;
+                        <br><img id="wIcon4" src="#" alt="weather icon"></div>
+                    <div><span id="d5"></span><br><span id="day5"></span>&#8457;
+                        <br><img id="wIcon5" src="#" alt="weather icon"></div>
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div>
-            &copy; 2020 | myscoots international | Phone (555) 555-555 
-        </div>
-    </footer>
-    <script src='js/myJS.js'> </script>
-    <script src='js/temp.js'></script>
-    <script src='js/forcast.js'></script>
-</body>
+        </main>
+        <footer>
+            <div>
+                &copy; 2020 | myscoots international | Phone (555) 555-555
+            </div>
+        </footer>
+        <script src='js/sm.js'> </script>
+        <!-- <script src='js/temp.js'></script>
+        <script src='js/forcast.js'></script> -->
+    </body>
 
 </HTML>
