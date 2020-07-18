@@ -15,54 +15,54 @@
             src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <title>Scoots international Home page</title>
     </head>
-
     <body>
         <header>
-            <div class="companyInfo">
-                <img src="images/Scoots.png" alt="company logo">
-                <h1>Scoots scooters</h1>
-                <h3>Fast friendly scoots 'n toots</h3>
-            </div>
         </header>
         <nav>
-            <div class ="menu">
-                <a class="fa fa-bars menu fa-2x" id="menu-toggle"></a>
-                <div id="side-menu" class="menu-container">
-                    <a class="fa fa-close" id="menu-close"></a>
-                    <ul class="menu-items">
-                        <!-- <li><a class="ham" href="#">&#9776; Menu</a></li> -->
-                        <li class="menu-item">
-                            <a class="scrollable-link" href="home.html">Home</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="scrollable-link" href="rentals.html">Rentals</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="scrollable-link" href="reservations.html">Reservations</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="scrollable-link" href="tours.html">Tours</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="scrollable-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+            <div class="company-info">
+                <img src="images/Scoots.png" alt="company logo">
+                <div class="company-name">
+                    <h1>Scoots scooters</h1>
+                    <h3>Fast friendly scoots 'n toots</h3>
                 </div>
+            </div>
+
+            <div id="nav-menu">
+                <ul>
+                    <!-- <li><a class="ham" href="#">&#9776; Menu</a></li> -->
+                    <li class="menu-item">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="rentals.html">Rentals</a>
+                    </li>
+                    <li>
+                        <a href="reservations.html">Reservations</a>
+                    </li>
+                    <li>
+                        <a href="tours.html">Tours</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
             </div>
         </nav>
         <main>
-
-            <picture>
-                <source srcset='' media='(min-width:
+            <div class="position">
+            <picture class="main-pic">
+                <source srcset='images/scoots-home-small.jpg' media='(min-width:
                     500px) and (max-width: 799px)'>
-                <source srcset='' media='(min-width:
+                <source srcset='images/scoots-home-med.jpg' media='(min-width:
                     799px)'>
-                <img src='' alt='Picture of scooters'>
+                <img src='images/scoots-home-large.jpg' alt='Picture of scooters'>
             </picture>
-
+            <a><img class="rent" src="images/rent.png"></a>
+            </div>
             <div class="multi-forcast">
                 <h2>5 Day Forcast</h2>
-                <div class="multiDisplay">
+                <div class="multi-display">
                     <div><span id="d1">Today</span><br><span id="day1"></span>&#8457;
                         <br><img id="wIcon1" src="#" alt="weather icon"> </div>
                     <div><span id="d2"></span><br><span id="day2"></span>&#8457;
@@ -82,8 +82,8 @@
             </div>
         </footer>
         <script src='js/sm.js'> </script>
-        <!-- <script src='js/temp.js'></script>
-        <script src='js/forcast.js'></script> -->
+        <!-- <script src='js/temp.js'></script>-->
+        <script src='js/forcast.js'></script> 
     </body>
 
 </HTML>
