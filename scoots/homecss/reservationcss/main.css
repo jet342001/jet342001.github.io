@@ -22,9 +22,10 @@ h2{
   flex-direction: column;
 }
 
-.form-nav{
+.form-nav div{
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .info{

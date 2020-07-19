@@ -2,6 +2,7 @@
 
     .company-info img {
         max-width: 10%;
+        align-self: center;
       }
       
     nav{
@@ -22,7 +23,7 @@
 
     .company-name{
         text-align: left;
-        align-content: center;
+        align-self: center;
     }
 
     .rent{

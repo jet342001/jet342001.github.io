@@ -100,21 +100,42 @@
                     <div class="form-nav">
                     <legend>Contact Information</legend>
                     <label class="contact">Full Name*: <input type="text"
-                            name="name"
-                            title="Only Letters, 6 or more characters"
-                            pattern="[A-Za-z\s]{5,}" required></label>
+                        name="name"
+                        title="Only Letters, 6 or more characters"
+                        pattern="[A-Za-z\s]{5,}" required>
+                    </label>
+                    <br>
                     <label class="contact">Phone*: <input type="tel" name="phone"
-                            title="Only numbers and 10 digits or greater"
-                            pattern="[0-9]{10,}" placeholder="1235551231"
-                            required></label>
+                        title="Only numbers and 10 digits or greater"
+                        pattern="[0-9]{10,}" placeholder="1235551231"
+                        required>
+                    </label>
+                    <br>
+                    <label class="contact">Country*: <input type="text"
+                        name="country"
+                        title="Only Letters, 6 or more characters"
+                        pattern="[A-Za-z\s]{5,}" required>
+                    </label>
+                    <br>
                     <label class="contact">Zipcode: <input type="number"
-                            name="ship-zip"
-                            required></label>
+                        name="ship-zip"
+                        required>
+                    </label>
+                    <br>
                     <label class="contact">Email: <input type="email" name="email"
-                            placeholder="name@domain.com"></label>
+                        placeholder="name@domain.com">
+                    </label>
+                    <br>
+                    <label class="contact">Cruise ship (optional): <input type="text"
+                        name="cruise"
+                        title="Only Letters, 6 or more characters"
+                        pattern="[A-Za-z\s]{5,}" required>
+                    </label>
+                    <br>
                     <legend>Rental Information</legend>
                     <label class="res">Rental Date: <input type="date"
                             name="resdate"></label>
+                    <br>
                     <label class="res">Vehicle type: <input list="v-type"
                             type="list" name="vehicletype"></label>
                     <datalist id="v-type">
@@ -125,6 +146,7 @@
                         <option value="Jeep Wrangler 4-Door">
                         <option value="Jeep Wrangler 2-Door">
                     </datalist>
+                    <br>
                     </label>
                     <label class="res-legnth">Time frame: <input list="res-time"
                         type="list" name="vehicletype"></label>
@@ -137,18 +159,21 @@
                     <option value="5 days">
                 </datalist>
                 </label>
-                    <label class="location">Rental location:
-                        <select name="pickup-location">
-                            <option value="" selected
-                                disabled>Rental location</option>
-                            <option value="el Centro de Cozumel">el Centro de Cozumel</option>
-                            <option value="Puerta Maya">Puerta Maya</option>
-                        </select>
-                    </label>
+                <br>
+                <label class="location">Rental location:
+                    <select name="pickup-location">
+                        <option value="" selected
+                            disabled>Rental location</option>
+                        <option value="el Centro de Cozumel">el Centro de Cozumel</option>
+                        <option value="Puerta Maya">Puerta Maya</option>
+                    </select>
+                </label>
+                    <br>
+                    additional requests or hotel drop off address/name:
+                    <textarea name="additional" id="comments"></textarea>
                 </fieldset>
             </div>
                 <fieldset class="info">
-                    <legend>Additional Info</legend>
                     <div class="rad">I accept the terms and conditions</div>
                     <label class="container">
                         <input type="checkbox">
