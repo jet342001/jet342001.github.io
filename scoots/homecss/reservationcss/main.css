@@ -1,0 +1,34 @@
+.terms{
+  background: #6BBAA7;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.adventure{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+.terms h1{
+  background-color: #6BBAA7;
+}
+
+.my-form{
+  background: #FBA100;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  padding 1rem;
+  margin: 0;
+  background: #FBA100;
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1028px) {
+
+    h2{
+        font-size: small;
+    }
+
+    .company-info{
+        display: block;
+        align-self: center;
+    }
+    
+
+    
+
+} /* end of media query */

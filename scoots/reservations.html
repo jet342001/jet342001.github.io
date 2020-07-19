@@ -6,13 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="descriptions" content="Scoots home page, scoots n toots for
             your island tours">
-        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="homecss/normalize.css">
+        <link href="homecss/reservationcss/main.css" rel="stylesheet">
+        <link href="homecss/reservationcss/medium.css" rel="stylesheet">
         <link href="homecss/main.css" rel="stylesheet">
         <link href="homecss/medium.css" rel="stylesheet">
         <link href="homecss/large.css" rel="stylesheet">
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <link href="homecss/reservationcss/large.css" rel="stylesheet">
+
+        
+
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
         <title>Scoots international Home page</title>
     </head>
     <body>
@@ -47,12 +51,53 @@
                     </li>
                 </ul>
 
+            <div class="adventure">
+            <h1>Adventure awaits, gets your scoots now! don't miss out!</h1>
+            <h2>Limited Availability!</h2>
+            <img src="images/jeep-res.jpg" alt="jeep at the beach">
             </div>
         </nav>
         <main>
-
-            <form method="get" action="thanks.html">
+            <div class="terms">
+            <ul class='terms'>
+                <h1>Rental Terms</h1>
+                <li>
+                    A $50 security deposit is required to confirm reservations.
+                </li>
+                <li>
+                    A valid drivers license is required in hand at time of rental.
+                </li>
+                <li>
+                    No one under 12 years of age are allowed to ride on the scooters.
+                </li>
+                <li>
+                    Fuel charge not included.
+                </li>
+                <li>
+                    Unlimited mileage.
+                </li>
+                <li>
+                    Liability insurance is free of charge.
+                </li>
+                <li>
+                    Reservations rate requires 24 hour prior notification.
+                </li>
+                <li>
+                    Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+                </li>
+                <li>
+                    Payment via Google Pay, cash, credit card, debit card, or PayPal.
+                </li>
+                <li>
+                    Rentals may be returned to either location.
+                </li>
+            
+            </ul>
+        </div>
+        <div class="high-level-form">
+            <form method="get" action="confirmation.html" class="my-form">
                 <fieldset class="newField">
+                    <div class="form-nav">
                     <legend>Contact Information</legend>
                     <label class="contact">Full Name*: <input type="text"
                             name="name"
@@ -67,13 +112,12 @@
                             required></label>
                     <label class="contact">Email: <input type="email" name="email"
                             placeholder="name@domain.com"></label>
-\
                     <legend>Rental Information</legend>
                     <label class="res">Rental Date: <input type="date"
                             name="resdate"></label>
-                    <label class="res">Vehicle type: <input list="date"
+                    <label class="res">Vehicle type: <input list="v-type"
                             type="list" name="vehicletype"></label>
-                    <datalist id="stormType">
+                    <datalist id="v-type">
                         <option value="Honda Metro">
                         <option value="Honda Dio">
                         <option value="Honda PCX150">
@@ -82,35 +126,39 @@
                         <option value="Jeep Wrangler 2-Door">
                     </datalist>
                     </label>
-                    <label class="storm">Storm Region:
-                        <select name="region">
+                    <label class="res-legnth">Time frame: <input list="res-time"
+                        type="list" name="vehicletype"></label>
+                <datalist id="res-time">
+                    <option value="Half-day">
+                    <option value="Full day">
+                    <option value="2 days">
+                    <option value="3 days">
+                    <option value="4 days">
+                    <option value="5 days">
+                </datalist>
+                </label>
+                    <label class="location">Rental location:
+                        <select name="pickup-location">
                             <option value="" selected
-                                disabled>Select
-                                Region...</option>
-                            <option value="preston">Preston</option>
-                            <option value="soda springs">Soda
-                                Springs</option>
-                            <option value="fish haven">Fish
-                                Haven</option>
+                                disabled>Rental location</option>
+                            <option value="el Centro de Cozumel">el Centro de Cozumel</option>
+                            <option value="Puerta Maya">Puerta Maya</option>
                         </select>
                     </label>
                 </fieldset>
+            </div>
                 <fieldset class="info">
                     <legend>Additional Info</legend>
-                    <div class="rad">I feel im in danger?:</div>
-                    <label class="rad test"><input type="radio"
-                            name="level" value="yes">Yes</label>
-                    <label class="rad"><input type="radio"
-                            name="rad" value="maybe">Maybe</label>
-                    <label class="rad"><input type="radio"
-                            name="level" value="no">No</label>
-                    <br>
-                    <label class="rad">Comments:</label>
-                    <textarea name="rad comment" id="comments"></textarea>
+                    <div class="rad">I accept the terms and conditions</div>
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+
                 </fieldset>
                 <input class="submitForm" type="submit" value="Submit">
                 </form>
-            
+            </div>
         </main>
         <footer>
             <div>
@@ -118,8 +166,6 @@
             </div>
         </footer>
         <script src='js/sm.js'> </script>
-        <!-- <script src='js/temp.js'></script>-->
-        <script src='js/forcast.js'></script> 
     </body>
 
 </HTML>

@@ -1,8 +1,5 @@
 @media only screen and (min-width: 1028px) {
 
-    .company-info{
-        display: grid;
-    }
     .company-info img {
         max-width: 10%;
       }
@@ -24,7 +21,8 @@
     }
 
     .company-name{
-        align-items: flex-end;
+        text-align: left;
+        align-content: center;
     }
 
     .rent{
