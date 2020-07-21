@@ -1,0 +1,31 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main img{
+  max-width: 100%;
+}
+
+main a{
+  color: aqua;
+}
+
+main:nth-child(odd){
+  background-color: #6BBAA7;
+}
+
+main h1, main h3{
+  background:#6BBAA7 ;
+}
+main h2{
+  margin: 0;
+}
+.maps{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+.questions{
+  display: grid;
+  grid-template-columns: 1fr;
+}

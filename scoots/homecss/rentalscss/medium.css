@@ -1,32 +1,19 @@
 @media only screen and (min-width: 560px) {
-    
-    .company-info{
+
+    .rentals{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        background: #FBA100;
     }
 
-    h1, h3{
-        background: #6BBAA7;
+    .rentals img{
+        max-height: 20rem;
+        min-height: 20rem;
     }
 
-    #nav-menu ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .inner:first-child{
+        font-size: small;
     }
-
-    #nav-menu ul li{
-        font-size: 2rem;
-      }
-
-    .company-name{
-        align-self: end;
-    }
-
-    .multi-forcast{
-        align-items: center;
-        text-align: center;
-    }
-
     
 } /* end of media query */

@@ -6,7 +6,6 @@ function updateForecast() {
     fetch(fUrl)
         .then((response) => response.json())
         .then((forecast) => {
-            console.log(forecast);
             document.getElementById('day1').textContent = Math.round(forecast.list[0].main.temp_max);
             document.getElementById('day2').textContent = Math.round(forecast.list[14].main.temp_max);
             document.getElementById('day3').textContent = Math.round(forecast.list[22].main.temp_max);
@@ -22,7 +21,6 @@ function updateForecast() {
             //Handles the images loading for weather icons. 
             for (var c = 0; c < 5; c++){
                 var i = weekcon[c];
-                console.log(i);
                 if(i > 200 && i < 300 ){
                     weekcon[c] = "images/weathericons/ThunderStorm.png";
                 }
@@ -39,7 +37,6 @@ function updateForecast() {
                     weekcon[c] = "images/weathericons/Cloudy.png";
                 }
             }
-            console.log(weekcon);
             //setting the image icons
             document.getElementById('wIcon1').setAttribute('src', weekcon[0]);
             document.getElementById('wIcon2').setAttribute('src', weekcon[1]);
@@ -47,8 +44,6 @@ function updateForecast() {
             document.getElementById('wIcon4').setAttribute('src', weekcon[3]);
             document.getElementById('wIcon5').setAttribute('src', weekcon[4]);
         })
-
-    console.log(weekcon);
     //writes date in desired format
     let date = new Date();
     // MM/DD/YYYY HH:MM:SS

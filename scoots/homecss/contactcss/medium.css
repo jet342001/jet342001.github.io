@@ -1,0 +1,21 @@
+@media only screen and (min-width: 560px) {
+    
+    .maps{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    iframe{
+        max-width: 100%;
+    }
+        
+    main h3{
+        font-size: large;
+    }
+
+    .questions{
+        padding-top: 1rem;
+    }
+
+    
+    
+} /* end of media query */

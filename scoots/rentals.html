@@ -6,13 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="descriptions" content="Scoots home page, scoots n toots for
             your island tours">
-        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="homecss/normalize.css">
+        <link href="homecss/rentalscss/main.css" rel="stylesheet">
+        <link href="homecss/rentalscss/medium.css" rel="stylesheet">
+        <link href="homecss/rentalscss/large.css" rel="stylesheet">
         <link href="homecss/main.css" rel="stylesheet">
         <link href="homecss/medium.css" rel="stylesheet">
         <link href="homecss/large.css" rel="stylesheet">
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap"
+            rel="stylesheet">
         <title>Scoots international Home page</title>
     </head>
     <body>
@@ -34,7 +37,7 @@
                         <a href="home.html">Home</a>
                     </li>
                     <li>
-                        <a href="rentals.html">Rentals</a>
+                        <a class="current" href="rentals.html">Rentals</a>
                     </li>
                     <li>
                         <a href="reservations.html">Reservations</a>
@@ -50,11 +53,142 @@
             </div>
         </nav>
         <main>
-            The Rentals page describes the available rental options and prices with 
-            images. The prices displayed on the site must be obtained from a JSON 
-            data source of your own making. You can store this .json file in a 
-            data 📁folder on the site. Incorporate a data table in your HTML structure 
-            to display some portion of this information.
+            
+            <div class="rentals">
+                <div class="metro side-template">
+                    <div class="inside">
+                        Honda Metro
+                        <img src="images/rentals/Metro.jpeg" alt="honda metro
+                            image">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="metro-r-half">$20</span></span>
+                            <span>full day<span id="metro-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="metro-nr-half">$25</span></span>
+                            <span>full day<span id="metro-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dio side-template">
+                    <div class="inside">
+                        Honda Dio
+                        <img src="images/rentals/dio.jpeg" alt="image of honda
+                            dio">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="dio-r-half">$20</span></span>
+                            <span>full day<span id="dio-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="dio-nr-half">$25</span></span>
+                            <span>full day<span id="dio-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pcx150 side-template">
+                    <div class="inside">
+                        Honda PCX150
+                        <img src="images/rentals/pcx150.jpeg" alt="image of
+                            pcx150">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="pcx-r-half">$20</span></span>
+                            <span>full day<span id="pcx-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="pcx-nr-half">$25</span></span>
+                            <span>full day<span id="pcx-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pioneer side-template">
+                    <div class="inside">
+                        Honda Pioneer
+                        <img src="images/rentals/pionner.jpeg" alt="image of
+                            pioneer 4x4">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="pioneer-r-half">$20</span></span>
+                            <span>full day<span id="pioneer-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="pioneer-nr-half">$25</span></span>
+                            <span>full day<span id="pioneer-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="2dwrangler side-template">
+                    <div class="inside">
+                        2 Door Jeep
+                        <img src="images/rentals/jeep2d.jpeg" alt="image of 2
+                            door jeep">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="jeep2-r-half">$20</span></span>
+                            <span>full day<span id="jeep2-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="jeep2-nr-half">$25</span></span>
+                            <span>full day<span id="jeep2-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="4dwrangler side-template">
+                    <div class="inside">
+                        4 Door Jeep
+                        <img src="images/rentals/jeep4d.jpg" alt="image of 4
+                            door jeep">
+                    </div>
+                    <div class="info">
+                        <div class = inner>
+                            reservation
+                            <br>
+                            <span>half day<span id="jeep4-r-half">$20</span></span>
+                            <span>full day<span id="jeep4-r-full">$30</span></span>
+                        </div>
+                        <div class = inner>
+                            no reservation
+                            <br>
+                            <span>half day<span id="jeep4-nr-half">$25</span></span>
+                            <span>full day<span id="jeep4-nr-full">$35</span>
+                            </span>
+                        </div>
+                    </div>n>full day<span id="pcx-nr-full">$35</span> </span>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <div>

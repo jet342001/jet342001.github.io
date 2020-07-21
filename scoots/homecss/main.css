@@ -1,3 +1,6 @@
+html{
+  font-family: 'Amiri', serif;
+}
 .company-info{
   display: flex;
   justify-content: center;
@@ -44,6 +47,11 @@ h1, h3{
 
 a{
   text-decoration: none;
+}
+
+.current{
+  text-decoration: underline;
+  text-decoration-color: #FBA100;
 }
 
 main{
