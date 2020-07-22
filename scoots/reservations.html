@@ -115,7 +115,7 @@
                         pattern="[A-Za-z\s]{5,}" required>
                     </label>
                     <br>
-                    <label class="contact">Zipcode: <input type="number"
+                    <label class="contact">Zipcode: <input type="text"
                         name="ship-zip"
                         required>
                     </label>
@@ -127,7 +127,7 @@
                     <label class="contact">Cruise ship (optional): <input type="text"
                         name="cruise"
                         title="Only Letters, 6 or more characters"
-                        pattern="[A-Za-z\s]{5,}" required>
+                        pattern="[A-Za-z\s]{5,}">
                     </label>
                     <br>
                     Rental Information
@@ -173,7 +173,7 @@
                 <fieldset class="info">
                     <div class="rad">I accept the terms and conditions</div>
                     <label class="container">
-                        <input type="checkbox">
+                        <input type="checkbox" required>
                         <span class="checkmark"></span>
                       </label>
 
