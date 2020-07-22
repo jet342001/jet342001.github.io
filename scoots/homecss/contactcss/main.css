@@ -21,6 +21,8 @@ main h1, main h3{
 main h2{
   margin: 0;
 }
+
+
 .maps{
   display:grid;
   grid-template-columns: 1fr;

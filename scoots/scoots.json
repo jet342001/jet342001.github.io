@@ -1,33 +1,33 @@
 {"Rentals":{
     "metro":[{
-        "halfdayres":25,
+        "halfdayres":223,
         "fulldayres":30,
-        "description":25,
-        "icon":35}],
+        "halfnores":25,
+        "fullnres":35}],
     "dio":[{
         "halfdayres":30,
         "fulldayres":40,
-        "description":35,
-        "icon":45}],
+        "halfnores":35,
+        "fullnres":45}],
     "pcx":[{
         "halfdayres":40,
         "fulldayres":60,
-        "description":45,
-        "icon":55}],
+        "halfnores":45,
+        "fullnres":55}],
     "pioneer":[{
         "halfdayres":50,
         "fulldayres":70,
-        "description":60,
-        "icon":80}],
+        "halfnores":60,
+        "fullnres":80}],
     "jeep2":[{
         "halfdayres":60,
         "fulldayres":85,
-        "description":70,
-        "icon":90}],
+        "halfnores":70,
+        "fullnres":90}],
     "jeep4":[{
         "halfdayres":70,
         "fulldayres":100,
-        "description":85,
-        "icon":125}]
+        "halfnores":85,
+        "fullnres":125}]
     }
 }
