@@ -1,12 +1,18 @@
 main{
   display: grid;
   grid-template-columns: 1fr;
+  background: #6c648B;
 }
 
 main img{
   max-width: 100%;
 }
 
-main:nth-child(odd){
+main :nth-child(even){
+  background-color: #FBA100;
+}
+
+main :nth-child(odd){
   background-color: #6BBAA7;
 }
+

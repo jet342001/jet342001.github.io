@@ -4,6 +4,16 @@
         font-size: small;
     }
 
+    .adventure{
+        background: #FBA100;
+        grid-column: 1/4;
+        padding-bottom: 1rem;
+    }
+
+    .adventure h1, .adventure h2{
+        background: #FBA100;
+    }
+
     .company-info{
         display: block;
         align-self: center;
