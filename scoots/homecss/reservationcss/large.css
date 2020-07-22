@@ -10,6 +10,11 @@
         padding-bottom: 1rem;
     }
 
+    .adventure img{
+        max-height: 30rem;
+        min-width: 100%;
+    }
+
     .adventure h1, .adventure h2{
         background: #FBA100;
     }
