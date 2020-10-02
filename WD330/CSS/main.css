@@ -86,17 +86,20 @@ a:hover {
 
 @media only screen and (min-width: 60rem) {
 
-    div{
-        display:grid;
-        grid-template-columns: 3.5fr 9fr;
-    }
+div{
+    display:grid;
+    grid-template-columns: 3.5fr 9fr;
+}
 
-    header{
-        padding-left: 3.8rem;
-    }
+header{
+    padding-left: 3.8rem;
+}
 
-    article{
-        margin: 8%;
-        margin-top: 5%;
-    }
+article{
+    margin: 8%;
+    margin-top: 5%;
+}
+
+
+
 }
